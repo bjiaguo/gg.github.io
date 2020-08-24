@@ -1,1 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>常用网站</title> 
+<link rel="shortcut icon" href="http://qlogo2.store.qq.com/qzone/766065333/766065333/100?1569336437">
+<link rel="stylesheet" type="text/css" href="css/new_file.css"/>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+}
 
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+body{
+	background: url(../images/202008241.png) no-repeat;
+    background-size: cover;
+    background-position: center center；
+}
+
+
+
+/* 导航条开始 */
+.header {
+    width: 100%;
+	height: 50px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    overflow: hidden;       /* 内容溢出添加滚动条*/
+    /* background-color: #777; */
+}
+.topmenu {
+    float: left;
+}
+.topmenu li {
+    float: left; 
+    list-style-type: none;
+}
+.topmenu li a {
+    display: inline-block;        
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 50px;
+    padding: 0 16px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.topmenu li a:hover {
+    background: linear-gradient(30deg ,#000,#00ff00,#0000ff,#ff0000, #fff); 
+    font-size: 22px;
+}
+.search{
+    height: 30px;
+    width: 160px;
+    float: right;
+    margin-top: 15px;
+}
+.search input{
+    width: 160px;
+    height:30px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #00ff00;
+}
+
+/* 方法二 */
+/* #sousuo{
+    width:30px;
+    height:30px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background: linear-gradient(30deg ,#000,#00ff00,#0000ff,#ff0000, #fff);
+    font-size: 20px;
+    color:#ffffff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+} */
+
+/* 导航条结束  */
+
+
+
+/* 左侧列表开始 */
+.sidemenu {
+    float: left;
+    padding: 25px;
+}
+.sidemenu {
+    width: 50%;
+    float: left;     
+}
+
+.sidemenu ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.sidemenu li{
+    width: 30%;
+    height: 80px;
+    background-image: radial-gradient(at center center,#e8d5f3,#d7bfe5,#bfa3cf,#ac8ac0); 
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.sidemenu li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+	font-size: 20px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    line-height: 80px;
+    font-weight: 700;
+    transition: text-shadow 2s ease-in 0;
+    
+}
+
+/* .sidemenu li:first-child {      使用第一行列表没有动作 
+    color: #ffffff;
+    /* background: linear-gradient(30deg ,#000,#00ff00,#0000ff,#ff0000, #fff);  
+} */
+.sidemenu li a:hover{
+    text-shadow: 0px 2px 2px #edcf41,
+    0px -2px 4px #b25b0d,
+    0px -4px 5px #b20d0d,
+    0px -8px 6px #b20d0d;
+    font-size: 25px;
+}
+
+.content {
+    width: 50%;
+    float:right;
+}
+.head{
+	font-family: Georgia, serif;
+    color: #000000;
+    text-align:center;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 90px;
+    }
+.book p{
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    right: 0;
+}
+.book {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 13%;
+}
+
+/* .clearfix: {
+	background-color: rgb(255.255.0);
+    content: "";
+    clear: both;
+    display: table;
+} */
+.last {
+    height: 20px;
+    font-size: 15px;
+    background-color: #444;
+    text-align: center; 
+    color: white; 
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+.qqemail{
+    height: 20px;
+    text-decoration:none; 
+    position:fixed;  
+    bottom: 0;
+    right: 0;
+}
+
+  </style>
+<body>
+	<div  class="header">
+		<div class="w">
+		<div class="topmenu ">
+			<ul>
+				<li><a href="https://tophub.today/" target="target_black">今日热榜</a></li>
+				<li><a href="http://weibo.com/" target="target_black">新浪微博</a></li>
+				<li><a href="https://cn.aliyun.com/" target="target_black">阿里云</a></li>
+				<li><a href="https://ttyunsou.com" target="target_black">百度网盘搜索引擎</a></li>
+				<li><a href="https://www.zhihu.com/" target="target_black">知乎</a></li>
+				<li><a href="https://www.haodanku.com/dyitem target_black" >好单库</a></li>
+				<li><a href="https://www.meihua.info/" target="target_black">梅花网</a></li>
+				<li><a href="https://www.huaban。com" target="target_black">花瓣网</a></li>
+				<li><a href="https://mazwai.com/"target="target_black">Free Vdieo</a></li>
+			  </ul>
+        </div>
+       <!-- <form  class="search"  action="http://www.baidu.com.cn/s" method="get"  target="_blank">    
+            <input type="text" name=""  placeholder="百度一下" />
+        </form> -->
+        <!-- 方法二 -->
+		<!-- <div class="search" >
+            <input class="search" value="" name="baidu" id="baidu" placeholder="百度一下"  target="_blank" />
+            <div onclick="baidu()" id="sousuo" >搜</div>
+		</div>	 -->
+	</div>
+	</div>
+	
+	<div class="w">
+  		<div class="sidemenu">
+   			<ul>
+			<!-- <li><a class="active" >常用网站列表</a></li> -->
+			<li><a href="zh.wikihow.com" target="target_black">WikiHow</a></li>
+			<li><a href="https://www.w3school.com.cn/" target="target_black">W3Cschool</a></li>
+			<li><a href="https://www.csdn.net/" target="target_black">CSDN</a></li>
+			<li><a href="http://www.github.com/" target="target_black">GitHub</a></li>
+			<li><a href="https://cn.v2ex.com/" target="target_black">V2ex</a></li>
+			<li><a href="https://www.cuiuc.com/forum-2.htm" target="_blank">CUICU</a></li>
+			<li><a href="https://developers.weixin.qq.com/miniprogram/dev/component/" target="target_black">微信小程序文档</a></li>
+			<li><a href="https://uniapp.dcloud.io/collocation/pages" target="target_black">uni-app文档</a></li>
+			<li><a href="https://developer.mozilla.org/zh-CN/" target="target_black">MDNwed文档</a></li>
+			<li><a href="https://www.chuangkit.com/" target="target_black">创客贴</a></li>
+			<li><a href="https://www.iconfont.cn/" target="target_black">阿里矢量图标</a></li>
+			<li><a href="http://api.map.baidu.com/lbsapi/getpoint/" target="target_black">获取经纬度</a></li>
+			<li><a href="https:https://www.draw.io/" target="target_black">在线绘图</a></li>	
+	    	<li><a href="https://uzer.me/u/signin/" target="target_black">UZER.ME</a></li>
+	    	<li><a href="https://bitbug.net" target="target_black">ico图标转换</a></li>
+			<!-- <textarea name="yj" clos="20" rows="5"></textarea> -->
+   	 		</ul>
+ 		</div>
+		<div class="content">
+			<div class="head">
+				<p>《你有多自律，就有多自由》<p>
+			</div>
+			<div class="book">
+				<p>作者：卡西</p>
+				<ul>
+					<li>自序、自律是一场自己与自己的博弈</li>
+					<li>你在原来的领域风生水气，换个战场，还行吗</li>
+					<li>人生不只要做减法，也要做加法</li>
+					<li>年轻的时候，到底该成为一个怎样的人</li>
+					<li>如果连“赚钱”也要别人催，那你一生也就这样了</li>
+					<li>加个班失个恋就人生艰难了？难得还在后边</li>
+					<li>谁不是一边拼命赚钱，一边渴望尘世温暖</li>
+					<li>换一种心情，转身遇见另外的人生</li>
+					<li>我像你一样年轻的时候，也喜欢过坏人</li>   
+					<li>自由，不是随心所欲，而是自我主宰</li> 
+				</ul>
+			</div>
+		</div>
+
+
+		<div class="last">
+			<a >世间学说，每每误人，唯有李宗吾铁论《厚黑学》不会误人！</a>
+		</div>
+		<div class="qqemail">
+			<a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=Og0MDAoMDwkJCXpLSxRZVVc" style="text-decoration:none;"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_22.png"/></a>
+		</div>
+	</div>
+</body>
+<script>
+    // 调用百度搜索接口---方法二
+    function baidu(){
+        var inputword=document.getElementById("baidu").value;
+        location.href="https://www.baidu.com/s?wd="+inputword;
+    }
+</script>
+
+</html>
